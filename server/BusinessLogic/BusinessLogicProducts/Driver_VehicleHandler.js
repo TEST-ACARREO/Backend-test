@@ -13,8 +13,8 @@ async function createDriver_Vehicle( Id_driver, Id_vehicle, Is_owner ) {
     logger.info("Driver_VehicleController: Driver_Vehicle was created successfully.");
     if(result.status==1)
         return 1;
-    logger.error("Driver_VehicleController: " + error);
-    return error;
+    logger.error("Driver_VehicleController: " + result.error);
+    return result.error;
 
 }
 
