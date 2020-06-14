@@ -30,6 +30,7 @@ router.post('/log-client-errors', exports.logClientErrors = async function (req,
 //status -1 = error, error message returned
 //status -2 = filed checks failed, error message returned
 //status -3 = wrong path
+//sfgsdfgdsfgsfdgs
 router.post('/:type_of_user/login', exports.login = async function (req, res) {
     
     if ("request" in req.body && "User_Email" in  req.body.request && "User_password" in req.body.request ) {
