@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "node-mocks-http": "^1.8.1",
-    "nyc": "^15.1.0",
     "sequelize-cli": "^5.5.1"
   },
   "scripts": {
