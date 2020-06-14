@@ -31,7 +31,7 @@ router.post('/log-client-errors', exports.logClientErrors = async function (req,
 //status -2 = filed checks failed, error message returned
 //status -3 = wrong path
 router.post('/:type_of_user/login', exports.login = async function (req, res) {
-    //hello hello
+    //hello hello this is just a test
     if ("request" in req.body && "User_Email" in  req.body.request && "User_password" in req.body.request ) {
 
         //TODO login user using Oauth
