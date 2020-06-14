@@ -1,0 +1,8 @@
+language: node_js
+node_js: 12.13.0
+
+addons:
+ sonarcloud: true
+script:
+ — npm run cover
+ — sonar-scanner -Dsonar.login=$f694e09fc1d0461364cef90c2375bb6f62923202 -Dsonar.organization=test-acarreo -Dsonar.projectKey=TEST-ACARREO_Backend-test -Dsonar.sources=’./app’ -X 
